@@ -1,0 +1,109 @@
+/* Styling the body */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-color: rgb(235, 170, 225);
+}
+
+:root {
+  --main-color: rgb(25, 1, 21);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling the first parallax's height, width and background color */
+.parallax-1 {
+  width: 100%;
+  height: 600px;
+  background: url("https://w.forfun.com/fetch/16/1649074ecd03634e05639d767e131258.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* Styling the title of first parallax */
+.parallax-1 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: 290px;
+  height: 32px;
+  padding: 10px;
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+/* Styling the second parallax's
+height, width and background color */
+.parallax-2 {
+  width: 100%;
+  height: 600px;
+  background: url("https://w.forfun.com/fetch/16/1649074ecd03634e05639d767e131258.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/* Styling the title of second parallax */
+.parallax-2 h2 {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: 250px;
+  height: 32px;
+  padding: 10px;
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+  color: var(--main-color);
+}
+
+/* Styling the content or paragraph */
+.para-1 {
+  padding: 50px;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lang {
+  margin-top: 15px;
+}
+
+.skill {
+  margin-top: 15px;
+}
+
+/* Styling the content or paragraph */
+.para-2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 17px;
+  font-family: Verdana;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+}
+
+.parallax-3 {
+  width: 100%;
+  height: 600px;
+  background: url("https://w.forfun.com/fetch/16/1649074ecd03634e05639d767e131258.jpeg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#footer {
+  font-size: 17px;
+  text-align: center;
+  color: var(--main-bg-color);
+  background-color: var(--main-color);
+  padding: 10px 0;
+}
